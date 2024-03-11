@@ -6,11 +6,11 @@
 }
 
 :root {
-    --theme-color: orange;
-    --primary-color: yellow;
+    --theme-color: #ffa500;
+    --primary-color: rgb(255, 255, 0)
     --secundary-color: orangered;
-    --text-color-inverse: white;
-    --text-color: yellow;
+    --text-color-inverse: #ffffff;
+    --text-color: #ffff00;
     --navbar-shallow-color: #e5e5e5;
     --menu-mobile-background-color: #ffa600;
     --menu-mobile-background-secondary-color: #ff0000;

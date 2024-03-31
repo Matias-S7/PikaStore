@@ -1,0 +1,324 @@
+@import 'variables';
+
+@import 'reset';
+
+  .topheader {
+    position: fixed;
+    background-color: var(--theme-color);
+    box-shadow: 0 4px 5px var(--navbar-shallow-color);
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .topnav {
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-color);
+    height: 50px;
+    width: 50px;
+  }
+  
+  .logo img {
+    border-radius: 50%;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 0 15px;
+  }
+  
+  .menu a {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 10px;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .menu a::after {
+    content: "";
+    background-color: var(--secundary-color);
+    left: 0;
+    top: calc(100% + 4px);
+    width: 100%;
+    height: 4px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .menu a::after {
+    content: "";
+    background-color: var(--secundary-color);
+    position: absolute;
+    left: 0;
+    top: calc(100% + 4px);
+    width: 100%;
+    height: 4px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .menu a.selected::after,
+  .menu a:hover::after {
+    opacity: 0.8;
+  }
+  
+  .menu a:hover {
+    color: var(--primary-color);
+  }
+  
+  
+  .footer {
+    background-color: orange;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .productos {
+    width: 560;
+    height: 315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .bienvenida {
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  
+  .Multimedia img {
+    width: 300px;
+    height: auto;
+    margin-top: 110px;
+    margin-left: -200px;
+  }
+  
+  .Multimedia iframe {
+    margin-left: -20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Multimediarepuesto iframe {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .topheader .logo img {
+    width: 50px;
+    height: auto;
+  }
+  
+  .footer .rayologo img {
+    width: 50px;
+    height: auto;
+  }
+  
+  .redes img,
+  .menu-footer .logo img {
+    width: 50px;
+    height: auto;
+  }
+  
+  .TIPOS_DE_CONTACTOS img {
+    width: 150px; /* Cambia el valor según el ancho deseado */
+    height: auto; /* Mantén la proporción de aspecto original */
+  }
+  
+  .patreon img {
+    width: 150px; /* Cambia el valor según el ancho deseado */
+    height: auto; /* Mantén la proporción de aspecto original */
+  }
+  
+  .imgfondo {
+    background-image: url("../assets/img/storm.gif");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .open-menu,
+  .close-menu {
+    display: none;
+  }
+  
+  .custom-img {
+    width: 200px;
+    height: 190px;
+  }
+  
+  .padmod {
+    margin-top: 50px;
+  }
+  
+  .link-rojo {
+    color: var(--primary-color); /* Color normal del enlace */
+    text-decoration: none; /* Quitamos el subrayado */
+  }
+  
+  .link-rojo:hover {
+    color: red; /* Color del enlace al pasar el mouse sobre él */
+  }
+  
+  .container {
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .container_repuesto {
+    margin-top: 85px;
+  }
+  
+  
+  .pikasong {
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    max-height: 300px; /* Ajusta la altura máxima de las imágenes según sea necesario */
+  }
+  
+  .carousel-caption {
+    color: #fff; /* Color del texto del caption */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el caption */
+    padding: 10px; /* Espaciado interno del caption */
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%; /* Ajusta el tamaño de los botones de control */
+    top: 50%; /* Coloca los botones en la mitad superior */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none; /* Elimina el icono predeterminado */
+    font-size: 24px; /* Tamaño del icono de control */
+    color: #fff; /* Color del icono de control */
+  }
+  
+  
+  
+  
+  @media (max-width: 950px) {
+    .menu {
+      flex-direction: column;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      align-items: center;
+      background-color: var(--menu-mobile-background-color);
+      color: var(--text-color-inverse);
+      height: 100%;
+      overflow-y: auto;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s;
+    }
+    .menu li {
+      padding: 0;
+    }
+    .menu a {
+      color: var(--text-color-inverse);
+      line-height: 50px;
+    }
+    .menu a::after {
+      content: "";
+      background-color: var(--secundary-color);
+      left: 0;
+      top: calc(100% + 4px);
+      width: 100%;
+      height: 4px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .menu a::after {
+      content: "";
+      background-color: var(--secundary-color);
+      position: absolute;
+      left: 0;
+      top: calc(100% + 4px);
+      width: 100%;
+      height: 4px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .menu a.selected::after,
+    .menu a:hover::after {
+      opacity: 0.8;
+    }
+    .menu a:hover {
+      color: var(--primary-color);
+    }
+    .open-menu,
+    .close-menu {
+      display: block;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+    .close-menu {
+      align-self: flex-end;
+      padding: 20px 15px;
+    }
+    .menu_opened {
+      opacity: 1;
+      pointer-events: all;
+    }
+    .Multimedia img {
+      margin-left: 50px;
+      margin-top: 1px;
+    }
+    .Multimedia iframe {
+      margin-left: 1px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .pikasong iframe {
+  
+      width: 350px;
+      height: 250px;
+  
+    }
+    .container {
+      border-radius: 10px;
+    }
+    .container iframe {
+  
+      width: 250px;
+      height: 250px;
+  
+    }
+    
+    .container img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  /*# sourceMappingURL=estilos.css.map */
+  

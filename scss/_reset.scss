@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: var(--theme-color);
+
+}
+
+:root {
+    --theme-color: #ffa500;
+    --primary-color: rgb(255, 255, 0)
+    --secundary-color: orangered;
+    --text-color-inverse: #ffffff;
+    --text-color: #000000;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #ffa600;
+    --menu-mobile-background-secondary-color: #ff0000;
+}
+
+body {
+    color: var(--text-color);
+    font-family: "sans-serif";
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  .h3 {
+  
+    font-size: 100px;
+  
+  }

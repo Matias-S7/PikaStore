@@ -1,0 +1,18 @@
+{
+  "name": "pagina-pikastore",
+  "version": "1.0.0",
+  "description": "projecto para desarollo web CoderHouse basado en una tienda de pikachu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Matias-S7/PikaStore.git)"
+  },
+  "author": "Matias",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.72.0"
+  }
+}

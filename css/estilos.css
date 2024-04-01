@@ -30,6 +30,37 @@ a {
   font-size: 100px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--theme-color);
+}
+
+:root {
+  --theme-color: #ffa500;
+  --primary-color: rgb(255, 255, 0)
+  --secundary-color: orangered;
+  --text-color-inverse: #ffffff;
+  --text-color: #000000;
+  --navbar-shallow-color: #e5e5e5;
+  --menu-mobile-background-color: #ffa600;
+  --menu-mobile-background-secondary-color: #ff0000;
+}
+
+body {
+  color: var(--text-color);
+  font-family: "sans-serif";
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.h3 {
+  font-size: 100px;
+}
+
 .topheader {
   position: fixed;
   background-color: var(--theme-color);
@@ -136,6 +167,11 @@ a {
   margin-left: 100px;
 }
 
+.bienvenida2 {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
 .Multimedia img {
   width: 300px;
   height: auto;
@@ -172,7 +208,7 @@ a {
 }
 
 .TIPOS_DE_CONTACTOS img {
-  width: 150px; /* Cambia el valor según el ancho deseado */
+  width: 120px; /* Cambia el valor según el ancho deseado */
   height: auto; /* Mantén la proporción de aspecto original */
 }
 
@@ -235,7 +271,7 @@ a {
 
 .carousel-control-prev,
 .carousel-control-next {
-  width: 5%; /* Ajusta el tamaño de los botones de control */
+  width: 35px; /* Ajusta el tamaño de los botones de control */
   top: 50%; /* Coloca los botones en la mitad superior */
 }
 
@@ -244,6 +280,45 @@ a {
   background-image: none; /* Elimina el icono predeterminado */
   font-size: 24px; /* Tamaño del icono de control */
   color: #fff; /* Color del icono de control */
+}
+
+.video {
+  width: 500px;
+  height: 280px;
+}
+
+.video2 {
+  width: 500px;
+  height: 280px;
+}
+
+.gif-animado-piakchu-eevee {
+  width: 420px;
+  height: 250px;
+  margin-top: 50px;
+}
+
+.gif-animado-piakchu-eevee2 {
+  width: 350px;
+  height: 150px;
+  margin-top: 50px;
+}
+
+.gif-pikachu-is-evolving2 {
+  width: 360px;
+  height: 220px;
+}
+
+.margen-arriba {
+  margin-top: 50px;
+}
+
+.margen-arriba2 {
+  margin-top: -5px;
+}
+
+.pikachu_is_evolving {
+  height: 270px;
 }
 
 @media (max-width: 950px) {

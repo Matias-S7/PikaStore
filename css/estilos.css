@@ -232,13 +232,13 @@ a {
   height: 280px;
 }
 
-.gif-animado-piakchu-eevee {
+.gif-animado-pikachu-eevee {
   width: 420px;
   height: 250px;
   margin-top: 50px;
 }
 
-.gif-animado-piakchu-eevee2 {
+.gif-animado-pikachu-eevee2 {
   width: 350px;
   height: 150px;
   margin-top: 50px;
@@ -250,11 +250,11 @@ a {
 }
 
 .margen-arriba {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .margen-arriba2 {
-  margin-top: -5px;
+  margin-top: 5px;
 }
 
 .pikachu_is_evolving {
@@ -409,6 +409,40 @@ a {
   .TIPOS_DE_CONTACTOS img {
     height: 50px;
     width: 50px;
+  }
+  .pikachuraichugba img {
+    height: 200px;
+    width: 350px;
+  }
+  .pikachuraichuanime img {
+    height: 200px;
+    width: 350px;
+  }
+  .pikatv video {
+    height: 200px;
+    width: 360px;
+  }
+  .pikatv2 video {
+    height: 200px;
+    width: 300px;
+  }
+  .pikatv3 video {
+    height: 20px;
+    width: 30px;
+  }
+  .pikachueevee img {
+    height: 200px;
+    width: 380px;
+  }
+  .pikachueevee2 img {
+    height: 200px;
+    width: 300px;
+  }
+  .margen-arriba {
+    margin-top: 30px;
+  }
+  .margen-arriba2 {
+    margin-top: 0px;
   }
 }
 

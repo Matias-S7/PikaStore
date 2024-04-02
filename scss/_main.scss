@@ -1,12 +1,12 @@
 
 .body {
-  color: map-get($colores, text-color);
-  font-family: "sans-serif";
+    color: map-get($colores, text-color);
+    font-family: "sans-serif";
 }
 
 a {
-  text-decoration: none;
-  color: map-get($colores, text-color);
+    text-decoration: none;
+    color: map-get($colores, text-color);
 }
   .h3 {
     font-size: 100px;
@@ -140,13 +140,13 @@ a {
     height: 280px;
   }
   
-  .gif-animado-piakchu-eevee {
+  .gif-animado-pikachu-eevee {
     width: 420px;
     height: 250px;
     margin-top: 50px;
   }
   
-  .gif-animado-piakchu-eevee2 {
+  .gif-animado-pikachu-eevee2 {
     width: 350px;
     height: 150px;
     margin-top: 50px;
@@ -158,11 +158,11 @@ a {
   }
   
   .margen-arriba {
-    margin-top: 50px;
+    margin-top: 30px;
   }
-  
+
   .margen-arriba2 {
-    margin-top: -5px;
+    margin-top: 5px;
   }
   
   .pikachu_is_evolving {

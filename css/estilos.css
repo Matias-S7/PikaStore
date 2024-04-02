@@ -92,6 +92,37 @@ a {
   font-size: 100px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--theme-color);
+}
+
+:root {
+  --theme-color: #ffa500;
+  --primary-color: rgb(255, 255, 0)
+  --secundary-color: orangered;
+  --text-color-inverse: #ffffff;
+  --text-color: #000000;
+  --navbar-shallow-color: #e5e5e5;
+  --menu-mobile-background-color: #ffa600;
+  --menu-mobile-background-secondary-color: #ff0000;
+}
+
+body {
+  color: var(--text-color);
+  font-family: "sans-serif";
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.h3 {
+  font-size: 100px;
+}
+
 .topheader {
   position: fixed;
   background-color: var(--theme-color);
@@ -441,6 +472,26 @@ a {
   .container img {
     width: 150px;
     height: 150px;
+  }
+  .Multimedia {
+    margin-left: 50px;
+  }
+  .carousel-control-prev img,
+  .carousel-control-next img {
+    width: 20px; /* Ancho deseado */
+    height: 20px; /* Alto deseado */
+  }
+  .video {
+    width: 320px;
+    height: 180px;
+  }
+  .video2 {
+    width: 320px;
+    height: 180px;
+  }
+  .TIPOS_DE_CONTACTOS img {
+    height: 50px;
+    width: 50px;
   }
 }
 

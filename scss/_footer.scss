@@ -1,0 +1,42 @@
+
+.footer {
+    background-image: linear-gradient(to top, #ff0000, #ff3a00, #ff5400, #ff6900, #ff7b00, #ff8b00, #ff9a00, #ffa900, #ffbb00, #ffce00, #ffe000, #fff300);
+    background-color: #ffa500;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  
+  .colorfuera {
+    background-color: #ffa500;
+  }
+  
+  .footer .rayologo img {
+    width: 50px;
+    height: auto;
+  }
+  
+  .redes img,
+  .menu-footer .logo img {
+    width: 50px;
+    height: auto;
+  }
+  
+
+  .rayo-logo {
+    height: 10px;
+    width: 10px;
+  }
+
+
+.footer .container {
+    background-color: transparent; /* Hace que el fondo del container del footer sea transparente */
+}
+
+.footer .container * {
+    background-color: transparent; /* Hace que el fondo de todos los elementos dentro del container del footer sea transparente */
+}
+

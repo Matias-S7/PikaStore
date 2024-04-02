@@ -1,0 +1,17 @@
+@mixin carousel-arrow($direction) {
+  .carousel-control-#{$direction} {
+    width: 35px; /* Tamaño de la flecha */
+    top: 50%; /* Posición vertical */
+    
+    // Aplicar estilos comunes a ambas flechas
+    background-image: none; /* Eliminar el icono predeterminado */
+    font-size: 24px; /* Tamaño del icono de control */
+    color: #fff; /* Color del icono de control */
+    
+    @if $direction == "prev" {
+      left: 0; /* Posición a la izquierda */
+    } @else if $direction == "next" {
+      right: 0; /* Posición a la derecha */
+    }
+  }
+}

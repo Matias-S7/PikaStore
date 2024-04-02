@@ -1,0 +1,173 @@
+
+.body {
+  color: map-get($colores, text-color);
+  font-family: "sans-serif";
+}
+
+a {
+  text-decoration: none;
+  color: map-get($colores, text-color);
+}
+  .h3 {
+    font-size: 100px;
+  }
+
+
+  .main {
+    background-color: orange; /* Establece el fondo del main */
+    background-size: cover;
+    background-position: center;
+  }
+.productos {
+    width: 560;
+    height: 315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .bienvenida {
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  
+  .bienvenida2 {
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  
+  .Multimedia img {
+    width: 300px;
+    height: auto;
+    margin-top: 110px;
+    margin-left: -200px;
+  }
+  
+  .Multimedia iframe {
+    margin-left: -20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Multimediarepuesto iframe {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+
+  .TIPOS_DE_CONTACTOS img {
+    width: 120px; /* Cambia el valor según el ancho deseado */
+    height: auto; /* Mantén la proporción de aspecto original */
+  }
+  
+.patreon img {
+    width: 150px; /* Cambia el valor según el ancho deseado */
+    height: auto; /* Mantén la proporción de aspecto original */
+  }
+  
+  .imgfondo {
+    background-image: url("../assets/img/storm.gif");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .open-menu,
+  .close-menu {
+    display: none;
+  }
+  
+  .custom-img {
+    width: 200px;
+    height: 190px;
+  }
+  
+  .padmod {
+    margin-top: 50px;
+  }
+  
+  .link-rojo {
+    color: var(--primary-color); /* Color normal del enlace */
+    text-decoration: none; /* Quitamos el subrayado */
+  }
+  
+  .link-rojo:hover {
+    color: red; /* Color del enlace al pasar el mouse sobre él */
+  }
+  
+  .container {
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .container_repuesto {
+    margin-top: 85px;
+  }
+  
+  .pikasong {
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    max-height: 300px; /* Ajusta la altura máxima de las imágenes según sea necesario */
+  }
+  
+  .carousel-caption {
+    color: #fff; /* Color del texto del caption */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el caption */
+    padding: 10px; /* Espaciado interno del caption */
+  }
+  
+  @mixin carousel-arrow($direction) {
+    /* Estilos para la flecha izquierda */
+    @if $direction == prev {
+      /* Estilos específicos para la flecha izquierda */
+    }
+    
+    /* Estilos para la flecha derecha */
+    @if $direction == next {
+      /* Estilos específicos para la flecha derecha */
+    }
+  }
+  .video {
+    width: 500px;
+    height: 280px;
+  }
+  
+  .video2 {
+    width: 500px;
+    height: 280px;
+  }
+  
+  .gif-animado-piakchu-eevee {
+    width: 420px;
+    height: 250px;
+    margin-top: 50px;
+  }
+  
+  .gif-animado-piakchu-eevee2 {
+    width: 350px;
+    height: 150px;
+    margin-top: 50px;
+  }
+  
+  .gif-pikachu-is-evolving2 {
+    width: 360px;
+    height: 220px;
+  }
+  
+  .margen-arriba {
+    margin-top: 50px;
+  }
+  
+  .margen-arriba2 {
+    margin-top: -5px;
+  }
+  
+  .pikachu_is_evolving {
+    height: 270px;
+  }
+  
+
+  

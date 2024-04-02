@@ -58,14 +58,30 @@
       background: none;
       cursor: pointer;
     }
+
+    .open-menu img {
+      height: 50px;
+      width: 50px;
+    }
+
     .close-menu {
       align-self: flex-end;
       padding: 20px 15px;
+    }
+
+    .close-menu img {
+      height: 50px;
+      width: 50px;
     }
     .menu_opened {
       opacity: 1;
       pointer-events: all;
     }
+
+    .logo {
+      padding-left: 170px;
+    }
+
     .Multimedia img {
       margin-left: 50px;
       margin-top: 1px;

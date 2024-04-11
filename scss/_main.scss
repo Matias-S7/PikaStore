@@ -25,6 +25,7 @@ a {
     justify-content: center;
     align-items: center;
     z-index: 999;
+    object-fit: contain;
   }
   
   .bienvenida {
@@ -110,7 +111,9 @@ a {
   }
   
   .carousel-item img {
-    max-height: 300px; /* Ajusta la altura máxima de las imágenes según sea necesario */
+    height: 200px;
+    width: 300px; /* Ajusta la altura máxima de las imágenes según sea necesario */
+    object-fit: contain;
   }
   
   .carousel-caption {
@@ -193,5 +196,19 @@ a {
     background-color: #ff7f00; /* Color de fondo naranja oscuro al pasar el cursor */
   }
   
-
+  .TIPOS_DE_CONTACTOS a {
+    position: relative; /* Añadimos posición relativa */
+    display: inline-block; /* Hacemos que el enlace se comporte como un bloque */
+  }
+  
+  .TIPOS_DE_CONTACTOS a:hover::after {
+    content: ""; /* Agregamos un pseudo-elemento ::after */
+    position: absolute; /* Establecemos posición absoluta */
+    left: 0; /* Alineamos al borde izquierdo */
+    bottom: 0; /* Alineamos al borde inferior */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura del 50% de la imagen */
+    background-color: red; /* Color de iluminación rojo */
+    opacity: 0.5; /* Opacidad del 50% */
+  }
   

@@ -129,6 +129,7 @@ a {
   justify-content: center;
   align-items: center;
   z-index: 999;
+  object-fit: contain;
 }
 
 .bienvenida {
@@ -213,7 +214,9 @@ a {
 }
 
 .carousel-item img {
-  max-height: 300px; /* Ajusta la altura máxima de las imágenes según sea necesario */
+  height: 200px;
+  width: 300px; /* Ajusta la altura máxima de las imágenes según sea necesario */
+  object-fit: contain;
 }
 
 .carousel-caption {
@@ -285,6 +288,22 @@ button:hover {
   background-color: #ff7f00; /* Color de fondo naranja oscuro al pasar el cursor */
 }
 
+.TIPOS_DE_CONTACTOS a {
+  position: relative; /* Añadimos posición relativa */
+  display: inline-block; /* Hacemos que el enlace se comporte como un bloque */
+}
+
+.TIPOS_DE_CONTACTOS a:hover::after {
+  content: ""; /* Agregamos un pseudo-elemento ::after */
+  position: absolute; /* Establecemos posición absoluta */
+  left: 0; /* Alineamos al borde izquierdo */
+  bottom: 0; /* Alineamos al borde inferior */
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Altura del 50% de la imagen */
+  background-color: red; /* Color de iluminación rojo */
+  opacity: 0.5; /* Opacidad del 50% */
+}
+
 .footer {
   background-image: linear-gradient(to top, #ff0000, #ff3a00, #ff5400, #ff6900, #ff7b00, #ff8b00, #ff9a00, #ffa900, #ffbb00, #ffce00, #ffe000, #fff300);
   background-color: #ffa500;
@@ -322,22 +341,6 @@ button:hover {
 
 .footer .container * {
   background-color: transparent; /* Hace que el fondo de todos los elementos dentro del container del footer sea transparente */
-}
-
-.TIPOS_DE_CONTACTOS a {
-  position: relative; /* Añadimos posición relativa */
-  display: inline-block; /* Hacemos que el enlace se comporte como un bloque */
-}
-
-.TIPOS_DE_CONTACTOS a:hover::after {
-  content: ""; /* Agregamos un pseudo-elemento ::after */
-  position: absolute; /* Establecemos posición absoluta */
-  left: 0; /* Alineamos al borde izquierdo */
-  bottom: 0; /* Alineamos al borde inferior */
-  width: 100%; /* Ancho completo */
-  height: 100%; /* Altura del 50% de la imagen */
-  background-color: orangered; /* Color de iluminación rojo */
-  opacity: 0.5; /* Opacidad del 50% */
 }
 
 @media (max-width: 950px) {

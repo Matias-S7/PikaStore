@@ -168,6 +168,30 @@ a {
   .pikachu_is_evolving {
     height: 270px;
   }
+
+  label {
+    margin-right: 10px; /* Espaciado a la derecha del label */
+  }
+  
+  input[type="email"] {
+    flex: 1; /* El campo de correo electrónico ocupará el espacio restante */
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #000; /* Borde sólido de color negro */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  button {
+    padding: 8px 16px; /* Espaciado interno */
+    background-color: #ffa500; /* Color de fondo naranja */
+    color: #fff; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  }
+  
+  button:hover {
+    background-color: #ff7f00; /* Color de fondo naranja oscuro al pasar el cursor */
+  }
   
 
   

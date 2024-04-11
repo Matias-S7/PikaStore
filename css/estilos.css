@@ -261,6 +261,30 @@ a {
   height: 270px;
 }
 
+label {
+  margin-right: 10px; /* Espaciado a la derecha del label */
+}
+
+input[type=email] {
+  flex: 1; /* El campo de correo electrónico ocupará el espacio restante */
+  padding: 8px; /* Espaciado interno */
+  border: 1px solid #000; /* Borde sólido de color negro */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+button {
+  padding: 8px 16px; /* Espaciado interno */
+  background-color: #ffa500; /* Color de fondo naranja */
+  color: #fff; /* Color de texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+}
+
+button:hover {
+  background-color: #ff7f00; /* Color de fondo naranja oscuro al pasar el cursor */
+}
+
 .footer {
   background-image: linear-gradient(to top, #ff0000, #ff3a00, #ff5400, #ff6900, #ff7b00, #ff8b00, #ff9a00, #ffa900, #ffbb00, #ffce00, #ffe000, #fff300);
   background-color: #ffa500;
@@ -447,7 +471,7 @@ a {
   }
   .pikachueevee2 img {
     height: 200px;
-    width: 250px;
+    width: 190px;
   }
   .margen-arriba {
     margin-top: 30px;

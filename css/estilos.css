@@ -261,10 +261,6 @@ a {
   height: 270px;
 }
 
-.margen-arriba3 {
-  margin-top: 95px;
-}
-
 .footer {
   background-image: linear-gradient(to top, #ff0000, #ff3a00, #ff5400, #ff6900, #ff7b00, #ff8b00, #ff9a00, #ffa900, #ffbb00, #ffce00, #ffe000, #fff300);
   background-color: #ffa500;
@@ -303,39 +299,6 @@ a {
 .footer .container * {
   background-color: transparent; /* Hace que el fondo de todos los elementos dentro del container del footer sea transparente */
 }
-
-.TIPOS_DE_CONTACTOS a {
-  position: relative; /* Añadimos posición relativa */
-  display: inline-block; /* Hacemos que el enlace se comporte como un bloque */
-}
-
-.TIPOS_DE_CONTACTOS a:hover::after {
-  content: ""; /* Agregamos un pseudo-elemento ::after */
-  position: absolute; /* Establecemos posición absoluta */
-  left: 0; /* Alineamos al borde izquierdo */
-  bottom: 0; /* Alineamos al borde inferior */
-  width: 100%; /* Ancho completo */
-  height: 100%; /* Altura del 50% de la imagen */
-  background-color: orangered; /* Color de iluminación rojo */
-  opacity: 0.5; /* Opacidad del 50% */
-}
-
-input[type="email"] {
-  flex: 1; /* El campo de correo electrónico ocupará el espacio restante */
-  padding: 8px; /* Espaciado interno */
-  border: 1px solid #000; /* Borde sólido de color negro */
-  border-radius: 5px; /* Bordes redondeados */
-}
-
-button {
-  padding: 8px 16px; /* Espaciado interno */
-  background-color: #ffa500; /* Color de fondo naranja */
-  color: #fff; /* Color de texto blanco */
-  border: none; /* Sin borde */
-  border-radius: 5px; /* Bordes redondeados */
-  cursor: pointer; /* Cambiar el cursor al pasar por encima */
-}
-
 
 @media (max-width: 950px) {
   .menu {
@@ -472,7 +435,7 @@ button {
   }
   .pikatv2 video {
     height: 200px;
-    width: 280px;
+    width: 300px;
   }
   .pikatv3 video {
     height: 20px;
@@ -480,20 +443,17 @@ button {
   }
   .pikachueevee img {
     height: 200px;
-    width: 280px;
+    width: 380px;
   }
   .pikachueevee2 img {
     height: 200px;
-    width: 280px;
+    width: 300px;
   }
   .margen-arriba {
     margin-top: 30px;
   }
   .margen-arriba2 {
     margin-top: 0px;
-  }
-  .margen-arriba4 {
-    margin-top: 10px;
   }
 }
 

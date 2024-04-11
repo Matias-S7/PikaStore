@@ -324,6 +324,22 @@ button:hover {
   background-color: transparent; /* Hace que el fondo de todos los elementos dentro del container del footer sea transparente */
 }
 
+.TIPOS_DE_CONTACTOS a {
+  position: relative; /* Añadimos posición relativa */
+  display: inline-block; /* Hacemos que el enlace se comporte como un bloque */
+}
+
+.TIPOS_DE_CONTACTOS a:hover::after {
+  content: ""; /* Agregamos un pseudo-elemento ::after */
+  position: absolute; /* Establecemos posición absoluta */
+  left: 0; /* Alineamos al borde izquierdo */
+  bottom: 0; /* Alineamos al borde inferior */
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Altura del 50% de la imagen */
+  background-color: orangered; /* Color de iluminación rojo */
+  opacity: 0.5; /* Opacidad del 50% */
+}
+
 @media (max-width: 950px) {
   .menu {
     flex-direction: column;
